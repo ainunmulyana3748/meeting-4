@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* css akbar */
+.akbarcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 23%;
+  border-radius: 8px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.akbarcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.akbarcard img {
+  border-top-right-radius: 3px;
+  border-top-left-radius: 4px;
+}
+
+.akbarcontainer {
+  font-family: sans-serif;
+  padding: 10px 10px 10px 20px;
+}
+
+.akbarcontainer a {
+  text-decoration: none;
+  color: #0033ff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.akbarcontainer p {
+  font-size: medium;
+  word-spacing: 4px;
+  padding-bottom: 20px;
+  color: rgba(66, 66, 66, 0.913);
+}
+
+.akbarcontainer h4 {
+  font-size: x-large;
+  color: rgba(58, 58, 58, 0.898);
+}
