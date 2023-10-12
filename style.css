@@ -1,0 +1,48 @@
+.card {
+  border-radius: 8px;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 23%;
+}
+
+.card:hover {
+  box-shadow: 3px 8px 16px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  color: blue;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail {
+  margin-left: 8px;
+}
+
+.detail p {
+  font-size: 12px;
+  font-family: Metropolis, sans-serif;
+  letter-spacing: 0;
+  color: #1f2937;
+}
+
+.button {
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.svg {
+  margin-top: 3px;
+  z-index: -1;
+}
